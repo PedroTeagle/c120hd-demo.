@@ -22,7 +22,7 @@ const FEATURES = [
     lead:'Keeps its speed.',
     body:'25% more torque and a bigger motor keep dense material moving, for a more consistent chop.',
     pts:{0:[728,452],1:[556,416],2:[298,406],3:[620,440],4:[525,438],5:[339,446],6:[295,470],7:[600,420]} },
-  { id:'hydraulics', photo:'images/p_hydraulics.jpg', title:'Optimised hydraulics', best:3, img:'images/hyd.jpg',
+  { id:'hydraulics', photo:'images/p_hydraulics.jpg', title:'Optimised hydraulics', best:3, img:'images/c_hydraulics.jpg',
     lead:'Works longer.',
     body:'Dedicated valves for the tub, conveyor drive, and conveyor angle and folding put power where it’s needed and take the strain off components.',
     pts:{1:[570,564],2:[510,608],3:[760,630],4:[845,602]} },
