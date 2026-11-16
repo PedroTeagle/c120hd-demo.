@@ -1,50 +1,79 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow">
-<title>Tomahawk C120-HD Calibrator | Teagle</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Tomahawk C120-HD Calibrator | Teagle</title>
+  <meta name="description" content="The Teagle Tomahawk C120-HD Calibrator: a high-duty bale processor for bedding, feed, composting and biomass, with a reformulated rotor and less downtime.">
+  <!-- the hero photo is the largest thing on first view, so it is requested first -->
+  <link rel="preload" href="images/hero.jpg" as="image" fetchpriority="high" media="(min-width: 701px)">
+  <link rel="preload" href="images/hero-mobile.jpg" as="image" fetchpriority="high" media="(max-width: 700px)">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<!-- 1. NAVBAR -->
+<!-- ================================================================
+     NAVBAR
+     ================================================================ -->
 <header class="nav">
-  <a class="nav__logo" href="#"><img src="images/logo.png" alt="Teagle"></a>
+  <a class="nav__logo" href="#"><img src="images/logo.webp" width="464" height="226" alt="Teagle"></a>
+
   <ul class="nav__menu" id="navMenu">
-    <li><a href="#">PRODUCTS <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
-    <li><a href="#">APPLICATIONS <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
-    <li><a href="#">SUPPORT <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
-    <li><a href="#">ABOUT US <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
-    <li><a href="#">CAREERS <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
-    <li><a href="#">GET IN TOUCH <svg viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">PRODUCTS <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">APPLICATIONS <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">SUPPORT <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">ABOUT US <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">CAREERS <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
+    <li><a href="#">GET IN TOUCH <svg aria-hidden="true" viewBox="0 0 10 7"><path d="M1 1l4 4 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg></a></li>
   </ul>
+
   <div class="nav__tools">
-    <a href="#" aria-label="Search"><svg viewBox="0 0 24 24"><path d="M9.5 2a7.5 7.5 0 0 1 6 12l6.2 6.3-1.4 1.4-6.3-6.2A7.5 7.5 0 1 1 9.5 2zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/></svg></a>
-    <a href="#" aria-label="Account"><svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="5"/><path d="M2 23c0-6 4.5-9 10-9s10 3 10 9z"/></svg></a>
-    <a href="#" aria-label="Language"><svg viewBox="0 0 24 24"><path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm7.9 10h-3.4a17 17 0 0 0-1.4-6.9A9 9 0 0 1 19.9 11zM12 3.1c1 1.3 2.3 4 2.5 7.9h-5C9.7 7.1 11 4.4 12 3.1zM8.9 4.1A17 17 0 0 0 7.5 11H4.1a9 9 0 0 1 4.8-6.9zM4.1 13h3.4a17 17 0 0 0 1.4 6.9A9 9 0 0 1 4.1 13zm7.9 7.9c-1-1.3-2.3-4-2.5-7.9h5c-.2 3.9-1.5 6.6-2.5 7.9zm3.1-1a17 17 0 0 0 1.4-6.9h3.4a9 9 0 0 1-4.8 6.9z"/></svg></a>
+    <a href="#" aria-label="Search">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9.5 2a7.5 7.5 0 0 1 6 12l6.2 6.3-1.4 1.4-6.3-6.2A7.5 7.5 0 1 1 9.5 2zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11z"/></svg>
+    </a>
+    <a href="#" aria-label="Account">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="7" r="5"/><path d="M2 23c0-6 4.5-9 10-9s10 3 10 9z"/></svg>
+    </a>
+    <a href="#" aria-label="Language">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 1a11 11 0 1 0 0 22 11 11 0 0 0 0-22zm7.9 10h-3.4a17 17 0 0 0-1.4-6.9A9 9 0 0 1 19.9 11zM12 3.1c1 1.3 2.3 4 2.5 7.9h-5C9.7 7.1 11 4.4 12 3.1zM8.9 4.1A17 17 0 0 0 7.5 11H4.1a9 9 0 0 1 4.8-6.9zM4.1 13h3.4a17 17 0 0 0 1.4 6.9A9 9 0 0 1 4.1 13zm7.9 7.9c-1-1.3-2.3-4-2.5-7.9h5c-.2 3.9-1.5 6.6-2.5 7.9zm3.1-1a17 17 0 0 0 1.4-6.9h3.4a9 9 0 0 1-4.8 6.9z"/></svg>
+    </a>
   </div>
-  <button class="nav__burger" aria-label="Menu" aria-expanded="false" aria-controls="navMenu"><svg viewBox="0 0 30 30"><path class="b1" d="M3 7h24"/><path class="b2" d="M3 15h24"/><path class="b3" d="M3 23h24"/></svg></button>
+
+  <button class="nav__burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="navMenu">
+    <svg aria-hidden="true" viewBox="0 0 30 30"><path d="M3 7h24"/><path d="M3 15h24"/><path d="M3 23h24"/></svg>
+  </button>
 </header>
 
-<!-- 2. HERO HEADER -->
+
+<main>
+
+<!-- ================================================================
+     HERO
+     Background video loads from JS (desktop and mobile versions).
+     hero.jpg in the CSS shows until it plays, and for reduced motion.
+     ================================================================ -->
 <section class="hero">
   <video class="hero__video" id="heroVideo" muted loop playsinline preload="none" aria-hidden="true"
          data-src="images/hero.mp4" data-src-mobile="images/hero-mobile.mp4"></video>
+
   <button class="hero__pause" id="heroPause" type="button" aria-label="Pause background video" hidden>
-    <svg class="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg>
-    <svg class="i-play" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg>
+    <svg aria-hidden="true" class="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg>
+    <svg aria-hidden="true" class="i-play" viewBox="0 0 24 24"><path d="M7 4l13 8-13 8z"/></svg>
   </button>
+
   <div class="hero__copy">
-    <img class="hero__wordmark" src="images/wordmark.png" alt="Tomahawk C120-HD Calibrator">
+    <img class="hero__wordmark" src="images/wordmark.webp" width="1170" height="227" alt="Tomahawk C120-HD Calibrator">
     <div class="ctas hero__ctas">
       <a class="btn btn--ghost btn--down" href="#intro">Find out more</a>
     </div>
   </div>
 </section>
 
-<!-- 3. HIGHLIGHTS GALLERY -->
+
+<!-- ================================================================
+     INTRO
+     ================================================================ -->
 <section class="intro wrap" id="intro">
   <p class="intro__kicker">Proven worldwide.</p>
   <h1 class="h-section">Built for high duty.</h1>
@@ -54,74 +83,254 @@
     <a class="btn" href="#highlights">Find out more</a>
   </div>
 </section>
+
+
+<!-- ================================================================
+     HIGHLIGHTS GALLERY
+     object-position on an image sets its focal point in the crop.
+     ================================================================ -->
 <section class="gallery" id="highlights">
+  <h2 class="visually-hidden">Applications</h2>
   <div class="wrap gallery__arrows">
-    <button id="galPrev" aria-label="Previous" disabled><svg viewBox="0 0 22 36"><path d="M19 2L3 18l16 16"/></svg></button>
-    <button id="galNext" aria-label="Next"><svg viewBox="0 0 22 36"><path d="M3 2l16 16L3 34"/></svg></button>
+    <button id="galPrev" type="button" aria-label="Previous" disabled><svg aria-hidden="true" viewBox="0 0 22 36"><path d="M19 2L3 18l16 16"/></svg></button>
+    <button id="galNext" type="button" aria-label="Next"><svg aria-hidden="true" viewBox="0 0 22 36"><path d="M3 2l16 16L3 34"/></svg></button>
   </div>
+
   <div class="gallery__track" id="galTrack">
-    <article class="card"><img src="images/g_straw.jpg" alt="C120-HD processing straw into a barn" style="object-position:50% 40%"><div class="card__body"><h3>Bedding and feed.</h3><p>Straw and hay processed to the length you need, set by the screen you fit.</p></div></article>
-    <article class="card"><img src="images/g_milling.jpg" alt="C120-HD with the grain milling hopper fitted" style="object-position:45% 50%"><div class="card__body"><h3>Grain milling.</h3><p>Fit the grain milling hopper and 3–10mm screens to process grain and maize.</p></div></article>
-    <article class="card"><img src="images/g_compost.jpg" alt="C120-HD processing compost in the field"><div class="card__body"><h3>Composting and AD.</h3><p>A uniform particle size, fast, for composting and anaerobic digestion feedstock.</p></div></article>
-    <article class="card"><img src="images/g3.jpg" alt="" style="object-position:50% 45%"><div class="card__body"><h3>Dense materials and biomass.</h3><p>More drive power and better material flow keep manure, compacted bedding and miscanthus moving, with fewer blockages.</p></div></article>
+    <article class="card">
+      <img src="images/g_straw-700.webp"
+           srcset="images/g_straw-700.webp 700w, images/g_straw-867.webp 867w"
+           sizes="(max-width: 1799px) min(440px, 82vw), 650px"
+           width="867" height="1300" alt="C120-HD processing straw into a barn" style="object-position: 50% 40%" loading="lazy" decoding="async">
+      <div class="card__body">
+        <h3>Bedding and feed.</h3>
+        <p>Straw and hay processed to the length you need, set by the screen you fit.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="images/g_milling-700.webp"
+           srcset="images/g_milling-700.webp 700w, images/g_milling-1300.webp 1300w"
+           sizes="(max-width: 1799px) min(440px, 82vw), 650px"
+           width="1300" height="867" alt="C120-HD with the grain milling hopper fitted" style="object-position: 45% 50%" loading="lazy" decoding="async">
+      <div class="card__body">
+        <h3>Grain milling.</h3>
+        <p>Fit the grain milling hopper and 3–10mm screens to process grain and maize.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="images/g_compost-700.webp"
+           srcset="images/g_compost-700.webp 700w, images/g_compost-1300.webp 1300w"
+           sizes="(max-width: 1799px) min(440px, 82vw), 650px"
+           width="1300" height="973" alt="C120-HD processing compost in the field" loading="lazy" decoding="async">
+      <div class="card__body">
+        <h3>Composting and AD.</h3>
+        <p>A uniform particle size, fast, for composting and anaerobic digestion feedstock.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="images/g3-700.webp"
+           srcset="images/g3-700.webp 700w, images/g3-900.webp 900w"
+           sizes="(max-width: 1799px) min(440px, 82vw), 650px"
+           width="900" height="1350" alt="C120-HD and tractor processing straw outside a barn" style="object-position: 50% 45%" loading="lazy" decoding="async">
+      <div class="card__body">
+        <h3>Dense materials and biomass.</h3>
+        <p>More drive power and better material flow keep manure, compacted bedding and miscanthus moving, with fewer blockages.</p>
+      </div>
+    </article>
   </div>
 </section>
 
-<!-- 4. MOTOR FEATURE -->
-<section class="rotor">
-  <div class="wrap rotor__grid">
-    <div class="rotor__media"><img class="rotor__img" src="images/rotor.webp" alt="C120-HD 64-hammer rotor"></div>
-    <div>
-      <h2 class="h-section">Reformulated rotor:</h2>
-      <div class="rotor__item"><img src="images/ri0.png" alt=""><div><h3>50% thicker hammers.</h3><p>A reformulated material and 70% more cutting edge. They last longer, so you service less often.</p></div></div>
-      <div class="rotor__item"><img src="images/ri1.png" alt=""><div><h3>From 56 to 64 hammers.</h3><p>More cutting face on every rotation means more output.</p></div></div>
-      <div class="rotor__item"><img src="images/ri2.png" alt=""><div><h3>Simplified rotor.</h3><p>Hardox discs are 60% thicker, with 28% fewer wearing parts. It’s stronger, with less to replace.</p></div></div>
-      <button class="btn" type="button" data-contact>Contact us for more</button>
+
+<!-- ================================================================
+     FEATURE CAROUSEL
+     The page's one featured section: the HD rotor first, then two more
+     slides. Each slide has its own colour theme (red, grey, dark).
+     Arrows, dots, swipe and keyboard are added in js/main.js; without
+     the script the three slides simply stack.
+     Hopper and hammers icons are placeholders until final artwork.
+     ================================================================ -->
+<section class="rotor feature-carousel" id="featureCarousel" aria-roledescription="carousel" aria-label="C120-HD features">
+  <div class="feature-carousel__track">
+    <div class="feature-slide feature-slide--red" role="group" aria-roledescription="slide" aria-label="1 of 3: Reformulated rotor">
+      <div class="wrap rotor__grid">
+        <div class="rotor__media">
+          <img class="rotor__img" src="images/rotor-720.webp"
+               srcset="images/rotor-720.webp 720w, images/rotor.webp 1100w"
+               sizes="(max-width: 1080px) 440px, (max-width: 1799px) 600px, 720px"
+               width="1100" height="800" alt="C120-HD 64-hammer rotor" loading="lazy" decoding="async">
+        </div>
+        <div>
+          <h2 class="h-section">Reformulated rotor:</h2>
+          <div class="rotor__item">
+            <img src="images/ri0.webp" width="164" height="164" alt="" loading="lazy" decoding="async">
+            <div>
+              <h3>50% thicker hammers.</h3>
+              <p>A reformulated material and 70% more cutting edge. They last longer, so you service less often.</p>
+            </div>
+          </div>
+          <div class="rotor__item">
+            <img src="images/ri1.webp" width="164" height="164" alt="" loading="lazy" decoding="async">
+            <div>
+              <h3>From 56 to 64 hammers.</h3>
+              <p>More cutting face on every rotation means more output.</p>
+            </div>
+          </div>
+          <div class="rotor__item">
+            <img src="images/ri2.webp" width="164" height="164" alt="" loading="lazy" decoding="async">
+            <div>
+              <h3>Simplified rotor.</h3>
+              <p>Hardox discs are 60% thicker, with 28% fewer wearing parts. It’s stronger, with less to replace.</p>
+            </div>
+          </div>
+          <button class="btn" type="button" data-contact>Contact us for more</button>
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide feature-slide--grey" role="group" aria-roledescription="slide" aria-label="2 of 3: Grain milling hopper">
+      <div class="wrap rotor__grid rotor__grid--flip">
+        <div class="rotor__media">
+          <img class="rotor__img" src="images/hopper-720.webp"
+               srcset="images/hopper-720.webp 720w, images/hopper.webp 1100w"
+               sizes="(max-width: 1080px) 440px, (max-width: 1799px) 600px, 720px"
+               width="1100" height="712" alt="Grain milling hopper for the C120-HD" loading="lazy" decoding="async">
+        </div>
+        <div>
+          <h2 class="h-section">Grain milling hopper:</h2>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22V7"/><path d="M12 8c-2.2-.8-3.4-2.6-3.4-5 2.2.6 3.4 2.4 3.4 5zm0 0c2.2-.8 3.4-2.6 3.4-5-2.2.6-3.4 2.4-3.4 5z"/><path d="M12 13c-2.2-.8-3.4-2.6-3.4-5 2.2.6 3.4 2.4 3.4 5zm0 0c2.2-.8 3.4-2.6 3.4-5-2.2.6-3.4 2.4-3.4 5z"/></svg></span>
+          <div>
+            <h3>Mill your own grain.</h3>
+            <p>Turn the C120-HD into a high capacity grain mill, for grain and maize.</p>
+          </div>
+        </div>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1.5"/><path d="M4 9.3h16M4 14.7h16M9.3 4v16M14.7 4v16"/></svg></span>
+          <div>
+            <h3>The right grind.</h3>
+            <p>Quick-change 3–10mm screens match the grind to the grain.</p>
+          </div>
+        </div>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M10 2.5h4M12 2.5V6"/></svg></span>
+          <div>
+            <h3>Less time milling.</h3>
+            <p>Get through grain quickly, so milling is done sooner.</p>
+          </div>
+        </div>
+          <button class="btn" type="button" data-contact>Contact us for more</button>
+        </div>
+      </div>
+    </div>
+    <div class="feature-slide feature-slide--dark" role="group" aria-roledescription="slide" aria-label="3 of 3: Quick switch hammers">
+      <div class="wrap rotor__grid">
+        <div class="rotor__media">
+          <img class="rotor__img rotor__img--photo" src="images/c_hammers.jpg"
+               width="600" height="408" alt="Changing the C120-HD's quick switch hammers" loading="lazy" decoding="async">
+        </div>
+        <div>
+          <h2 class="h-section">Quick switch hammers:</h2>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4v16"/></svg></span>
+          <div>
+            <h3>Change only half.</h3>
+            <p>The back hammers wear twice as fast, so you only change those.</p>
+          </div>
+        </div>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h16M7 8v8M17 8v8"/></svg></span>
+          <div>
+            <h3>Split rods.</h3>
+            <p>Split rods and a quick-release plate speed up the swap.</p>
+          </div>
+        </div>
+        <div class="rotor__item">
+          <span class="rotor__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="13.5" r="7.5"/><path d="M12 13.5V9.5M10 2.5h4M12 2.5V6"/></svg></span>
+          <div>
+            <h3>Rotor stays in.</h3>
+            <p>Half a set comes out with the rotor still in the machine.</p>
+          </div>
+        </div>
+          <button class="btn btn--red" type="button" data-contact>Contact us for more</button>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="feature-carousel__controls">
+    <button class="feature-carousel__arrow feature-carousel__arrow--prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 13 29" aria-hidden="true"><path d="M11.5 1.5L1.5 14.5l10 13"/></svg></button>
+    <div class="feature-carousel__dots"></div>
+    <button class="feature-carousel__arrow feature-carousel__arrow--next" type="button" aria-label="Next slide"><svg viewBox="0 0 13 29" aria-hidden="true"><path d="M1.5 1.5L11.5 14.5l-10 13"/></svg></button>
+  </div>
 </section>
 
-<!-- 5. PRODUCT FEATURES -->
+
+<!-- ================================================================
+     PRODUCT EXPLORER
+     The feature list, hotspots, pills and photos are built in JS from
+     the FEATURES list at the top of js/main.js.
+     Desktop/tablet: feature list + rotating machine with hotspots.
+     Mobile: pills under the machine, opening a feature card over a photo.
+     ================================================================ -->
 <section class="explore">
   <div class="wrap explore__grid">
     <h2 class="h-section explore__head">Explore the C120-HD Calibrator</h2>
-    <ul class="acc" id="acc"></ul>
-    <div class="pillbar" id="pillbar">
-      <button class="parrow" id="pPrev" aria-label="Previous feature"><svg viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8"/></svg></button>
-      <div class="pills" id="pills" role="list" aria-label="C120-HD features"></div>
-      <button class="parrow" id="pNext" aria-label="Next feature"><svg viewBox="0 0 24 24"><path d="M9 4l8 8-8 8"/></svg></button>
+
+    <ul class="feature-list" id="featureList"></ul>
+
+    <div class="pill-bar" id="pillBar">
+      <button class="pill-bar__arrow pill-bar__arrow--prev" id="pillPrev" type="button" aria-label="Previous feature"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 4l-8 8 8 8"/></svg></button>
+      <div class="pills" id="pills" role="group" aria-label="C120-HD features"></div>
+      <button class="pill-bar__arrow pill-bar__arrow--next" id="pillNext" type="button" aria-label="Next feature"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 4l8 8-8 8"/></svg></button>
     </div>
-    <div class="stage" id="stage" tabindex="0" role="group" aria-roledescription="360 degree viewer" aria-label="C120-HD Calibrator. Drag, or use the left and right arrow keys, to rotate.">
-      
-      <img class="stage__frame" src="images/f1.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f2.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f3.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f4.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f5.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f6.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f7.webp" alt="" draggable="false">
-      <img class="stage__frame" src="images/f8.webp" alt="" draggable="false">
-      <div class="stage__layer" id="spots"></div>
-      <div class="stage__layer" id="zoomLayer"><div class="zoom" id="zoom"><img alt="" id="zoomImg"></div></div>
-      <div class="mview" id="mview">
-        <div class="mview__photos" id="mPhotos"></div>
+
+    <div class="stage" id="stage" tabindex="0" role="group" aria-roledescription="360 degree viewer"
+         aria-label="C120-HD Calibrator. Drag, or use the left and right arrow keys, to rotate.">
+      <!-- 8 angles, 45° apart. Phones get the 800px set, larger screens the 1100px set. -->
+      <img class="stage__frame" src="images/f1-800.webp" srcset="images/f1-800.webp 800w, images/f1.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f2-800.webp" srcset="images/f2-800.webp 800w, images/f2.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f3-800.webp" srcset="images/f3-800.webp 800w, images/f3.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f4-800.webp" srcset="images/f4-800.webp 800w, images/f4.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f5-800.webp" srcset="images/f5-800.webp 800w, images/f5.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f6-800.webp" srcset="images/f6-800.webp 800w, images/f6.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f7-800.webp" srcset="images/f7-800.webp 800w, images/f7.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+      <img class="stage__frame" src="images/f8-800.webp" srcset="images/f8-800.webp 800w, images/f8.webp 1100w" sizes="(max-width: 1080px) 100vw, 830px" width="1100" height="900" alt="" draggable="false">
+
+      <!-- desktop: hotspots, and the photo card a hotspot opens -->
+      <div class="stage__layer" id="hotspots"></div>
+      <div class="stage__layer">
+        <div class="spot-card" id="spotCard"><img id="spotCardImg" alt=""></div>
       </div>
-      <div class="mbox" id="mBox" role="dialog" aria-live="polite">
-        <div class="mbox__head"><span class="mbox__title" id="mTitle"></span></div>
-        <div class="mbox__body"><p id="mText"></p></div>
+
+      <!-- mobile: full-size photo, feature card and close button -->
+      <div class="feature-photo" id="featurePhoto">
+        <div class="feature-photo__images" id="featurePhotoImages"></div>
       </div>
-      <button class="mclose" id="mClose" aria-label="Close feature"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
-      <div class="stage__hint"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15.5-6.2M21 12a9 9 0 0 1-15.5 6.2"/><path d="M18.5 2v4h-4M5.5 22v-4h4"/></svg>Drag to rotate</div>
+      <div class="feature-card" id="featureCard" aria-live="polite">
+        <div class="feature-card__head"><span class="feature-card__title" id="featureCardTitle"></span></div>
+        <div class="feature-card__body"><p id="featureCardText"></p></div>
+      </div>
+      <button class="feature-close" id="featureClose" type="button" aria-label="Close feature"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+
+      <div class="stage__hint">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15.5-6.2M21 12a9 9 0 0 1-15.5 6.2"/><path d="M18.5 2v4h-4M5.5 22v-4h4"/></svg>
+        Drag to rotate
+      </div>
     </div>
   </div>
 </section>
 
-<!-- 8. TESTIMONIAL -->
+
+<!-- ================================================================
+     TESTIMONIAL
+     The YouTube player loads only when play is pressed (data-yt is the video id).
+     ================================================================ -->
 <section class="review">
   <div class="wrap review__grid">
-    <div class="review__media" id="reviewFrame" data-yt="NHwiI-tfeyA">
-      <img src="images/g_compost.jpg" alt="The C120-HD processing compost at Manydown Estate">
-      <button class="play" type="button" id="reviewPlay" aria-label="Play customer review: reduce composting time and prepare materials for AD"><svg viewBox="0 0 24 24"><path d="M4 2l18 10L4 22z"/></svg></button>
+    <div class="review__media" id="reviewFrame" data-yt="NHwiI-tfeyA" data-title="Customer review: Manydown Estate">
+      <img src="images/g_compost-700.webp"
+           srcset="images/g_compost-700.webp 700w, images/g_compost-1300.webp 1300w"
+           sizes="(max-width: 1080px) min(760px, 100vw), 740px"
+           width="1300" height="973" alt="The C120-HD processing compost at Manydown Estate" loading="lazy" decoding="async">
+      <button class="play" id="reviewPlay" type="button" aria-label="Play customer review: reduce composting time and prepare materials for AD"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 2l18 10L4 22z"/></svg></button>
     </div>
     <div>
       <h2 class="h-section">Customer review:</h2>
@@ -136,52 +345,84 @@
   </div>
 </section>
 
-<!-- 6. OPTIONS -->
+
+<!-- ================================================================
+     OPTIONS
+     Three column lists. On tablet and mobile the columns are flattened
+     in CSS, so the order reads down each column, then across.
+     ================================================================ -->
 <section class="options wrap">
   <h2 class="h-section h-center">Options:</h2>
-  <div class="oacc">
-    <ul class="oacc__col">
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-0"><i class="oacc__ic" aria-hidden="true"></i><span>20 or 21 spline PTO</span></button>
-        <div class="oacc__panel" id="opt-0"><div><div class="oacc__body"><p>Choose the PTO spline to match your tractor.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-1"><i class="oacc__ic" aria-hidden="true"></i><span>K80 hitch</span></button>
-        <div class="oacc__panel" id="opt-1"><div><div class="oacc__body"><p>A K80 ball hitch for a secure connection to the tractor.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-2"><i class="oacc__ic" aria-hidden="true"></i><span>Hydraulic jack</span></button>
-        <div class="oacc__panel" id="opt-2"><div><div class="oacc__body"><p>Raise and lower the drawbar hydraulically for easier hitching.</p></div></div></div></li>
+
+  <div class="option-list">
+    <ul class="option-list__col">
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-0"><i class="option-list__icon" aria-hidden="true"></i><span>20 or 21 spline PTO</span></button>
+        <div class="option-list__panel" id="option-0"><div><div class="option-list__body"><p>Choose the PTO spline to match your tractor.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-1"><i class="option-list__icon" aria-hidden="true"></i><span>K80 hitch</span></button>
+        <div class="option-list__panel" id="option-1"><div><div class="option-list__body"><p>A K80 ball hitch for a secure connection to the tractor.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-2"><i class="option-list__icon" aria-hidden="true"></i><span>Hydraulic jack</span></button>
+        <div class="option-list__panel" id="option-2"><div><div class="option-list__body"><p>Raise and lower the drawbar hydraulically for easier hitching.</p></div></div></div>
+      </li>
     </ul>
-    <ul class="oacc__col">
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-3"><i class="oacc__ic" aria-hidden="true"></i><span>Fixed tub sides</span></button>
-        <div class="oacc__panel" id="opt-3"><div><div class="oacc__body"><p>Fixed tub sides fitted in place of the standard sides.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-4"><i class="oacc__ic" aria-hidden="true"></i><span>Grain milling hopper</span></button>
-        <div class="oacc__panel" id="opt-4"><div><div class="oacc__body"><p>Fits over the tub so the C120-HD can process grain and maize.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-5"><i class="oacc__ic" aria-hidden="true"></i><span>Grain milling screens, 3–10mm</span></button>
-        <div class="oacc__panel" id="opt-5"><div><div class="oacc__body"><p>Fine screens for milling grain, from 3mm to 10mm.</p></div></div></div></li>
+    <ul class="option-list__col">
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-3"><i class="option-list__icon" aria-hidden="true"></i><span>Fixed tub sides</span></button>
+        <div class="option-list__panel" id="option-3"><div><div class="option-list__body"><p>Fixed tub sides fitted in place of the standard sides.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-4"><i class="option-list__icon" aria-hidden="true"></i><span>Grain milling hopper</span></button>
+        <div class="option-list__panel" id="option-4"><div><div class="option-list__body"><p>Fits over the tub so the C120-HD can process grain and maize.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-5"><i class="option-list__icon" aria-hidden="true"></i><span>Grain milling screens, 3–10mm</span></button>
+        <div class="option-list__panel" id="option-5"><div><div class="option-list__body"><p>Fine screens for milling grain, from 3mm to 10mm.</p></div></div></div>
+      </li>
     </ul>
-    <ul class="oacc__col">
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-6"><i class="oacc__ic" aria-hidden="true"></i><span>Screens 13–250mm</span></button>
-        <div class="oacc__panel" id="opt-6"><div><div class="oacc__body"><p>Set the chop length for straw, hay and biomass. Bespoke sizes made to order.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-7"><i class="oacc__ic" aria-hidden="true"></i><span>Low temperature conveyor</span></button>
-        <div class="oacc__panel" id="opt-7"><div><div class="oacc__body"><p>A conveyor belt built to keep working in cold conditions.</p></div></div></div></li>
-      <li class="oacc__item"><button class="oacc__head" aria-expanded="false" aria-controls="opt-8"><i class="oacc__ic" aria-hidden="true"></i><span>Oil heater</span></button>
-        <div class="oacc__panel" id="opt-8"><div><div class="oacc__body"><p>Brings the hydraulic oil up to working temperature in cold weather.</p></div></div></div></li>
+    <ul class="option-list__col">
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-6"><i class="option-list__icon" aria-hidden="true"></i><span>Screens 13–250mm</span></button>
+        <div class="option-list__panel" id="option-6"><div><div class="option-list__body"><p>Set the chop length for straw, hay and biomass. Bespoke sizes made to order.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-7"><i class="option-list__icon" aria-hidden="true"></i><span>Low temperature conveyor</span></button>
+        <div class="option-list__panel" id="option-7"><div><div class="option-list__body"><p>A conveyor belt built to keep working in cold conditions.</p></div></div></div>
+      </li>
+      <li class="option-list__item">
+        <button class="option-list__head" type="button" aria-expanded="false" aria-controls="option-8"><i class="option-list__icon" aria-hidden="true"></i><span>Oil heater</span></button>
+        <div class="option-list__panel" id="option-8"><div><div class="option-list__body"><p>Brings the hydraulic oil up to working temperature in cold weather.</p></div></div></div>
+      </li>
     </ul>
   </div>
+
   <div class="options__cta">
     <p>Want to spec your C120-HD to suit your farm?</p>
     <button class="btn btn--red" type="button" data-contact>Contact us for more</button>
   </div>
 </section>
 
-<!-- 7. SPECS ICONS -->
+
+<!-- ================================================================
+     SPEC ICONS
+     ================================================================ -->
 <section class="stats">
   <ul class="wrap stats__grid">
-    <li class="stat"><img src="images/si0.png" alt=""><h3>Chop quantity<br>(5–150 mm chop)</h3><p>15 t/hr</p></li>
-    <li class="stat"><img src="images/si1.png" alt=""><h3>High capacity rotor<br>(2,000 rpm)</h3><p>1</p></li>
-    <li class="stat"><img src="images/si2.png" alt=""><h3>Power (min)</h3><p>200 HP</p></li>
-    <li class="stat"><img src="images/si3.png" alt=""><h3>Conveyor reach</h3><p>4.6 m</p></li>
+    <li class="stat"><img src="images/si0.webp" width="200" height="200" alt="" loading="lazy" decoding="async"><h3>Chop quantity<br>(5–150 mm chop)</h3><p>15 t/hr</p></li>
+    <li class="stat"><img src="images/si1.webp" width="200" height="200" alt="" loading="lazy" decoding="async"><h3>High capacity rotor<br>(2,000 rpm)</h3><p>1</p></li>
+    <li class="stat"><img src="images/si2.webp" width="200" height="200" alt="" loading="lazy" decoding="async"><h3>Power (min)</h3><p>200 HP</p></li>
+    <li class="stat"><img src="images/si3.webp" width="200" height="200" alt="" loading="lazy" decoding="async"><h3>Conveyor reach</h3><p>4.6 m</p></li>
   </ul>
 </section>
 
-<!-- 9. VIDEO -->
+
+<!-- ================================================================
+     VIDEO
+     The YouTube player loads only when play is pressed (data-yt is the video id).
+     ================================================================ -->
 <section class="video" id="video">
   <div class="wrap video__grid">
     <div class="video__text">
@@ -194,22 +435,28 @@
       </ul>
       <button class="btn btn--red" type="button" data-contact>Contact us for more</button>
     </div>
+
     <div class="video__media">
-    <div class="video__frame" id="videoFrame" data-yt="QPFl-DUvf74">
-      <img src="images/video.jpg" alt="C120-HD Calibrator in action" width="900" height="506">
-      <button class="play" id="videoPlay" aria-label="Play video: C120-HD Calibrator in action"><svg viewBox="0 0 24 24"><path d="M4 2l18 10L4 22z"/></svg></button>
-    </div>
-    <a class="video__alt" id="videoAlt" href="https://www.youtube.com/watch?v=QPFl-DUvf74" target="_blank" rel="noopener">Watch on YouTube</a>
+      <div class="video__frame" id="videoFrame" data-yt="QPFl-DUvf74" data-title="C120-HD Calibrator in action">
+        <img src="images/video.jpg" alt="C120-HD Calibrator in action" width="900" height="506" loading="lazy" decoding="async">
+        <button class="play" id="videoPlay" type="button" aria-label="Play video: C120-HD Calibrator in action"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 2l18 10L4 22z"/></svg></button>
+      </div>
+      <a class="video__alt" id="videoAlt" href="https://www.youtube.com/watch?v=QPFl-DUvf74" target="_blank" rel="noopener">Watch on YouTube</a>
     </div>
   </div>
 </section>
 
-<!-- 10. SPECIFICATIONS -->
+
+<!-- ================================================================
+     SPECIFICATIONS
+     ================================================================ -->
 <section class="specs">
   <div class="wrap">
     <h2 class="h-section h-center">Specifications</h2>
     <table>
-      <thead><tr><th>Description</th><th>C120 Calibrator</th></tr></thead>
+      <thead>
+        <tr><th>Description</th><th>C120 Calibrator</th></tr>
+      </thead>
       <tbody>
         <tr><td>Transport width (folded)</td><td>2.39m</td></tr>
         <tr><td>Transport width (un-folded)</td><td>3.12m</td></tr>
@@ -227,7 +474,10 @@
   </div>
 </section>
 
-<!-- 10b. CALL TO ACTION -->
+
+<!-- ================================================================
+     FINANCE CALL TO ACTION
+     ================================================================ -->
 <section class="cta">
   <div class="wrap cta__inner">
     <div>
@@ -238,49 +488,119 @@
   </div>
 </section>
 
-<!-- 11. FAQ -->
+
+<!-- ================================================================
+     FAQ
+     ================================================================ -->
 <section class="faq">
   <div class="wrap">
     <h2 class="h-section h-center">Your questions answered</h2>
-    <ul class="faq__list" id="faq">
-      <li class="faq__item is-open"><button class="faq__head" aria-expanded="true"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>What materials can the C120-HD process?</button><div class="faq__panel"><div><p>Straw, hay, miscanthus and other biomass, as well as manure and composting materials. With the optional grain milling hopper and screens fitted, it can also process grain.</p></div></div></li>
-      <li class="faq__item"><button class="faq__head" aria-expanded="false"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>What size tractor do I need?</button><div class="faq__panel"><div><p>A minimum of 180HP (135kW) with a 1,000 rpm PTO. Your dealer can advise on the best match for the materials you process.</p></div></div></li>
-      <li class="faq__item"><button class="faq__head" aria-expanded="false"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>How long does it take to change a screen?</button><div class="faq__panel"><div><p>Screens are changed from ground level at the back of the machine, so a swap typically takes a matter of minutes.</p></div></div></li>
-      <li class="faq__item"><button class="faq__head" aria-expanded="false"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>How often do the hammers need changing?</button><div class="faq__panel"><div><p>It depends on the material and hours worked. The thicker, reformulated hammers last significantly longer, and the quick switch system means only the back half of the set needs changing at a time.</p></div></div></li>
-      <li class="faq__item"><button class="faq__head" aria-expanded="false"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>Can I control the machine from the cab?</button><div class="faq__panel"><div><p>Yes. The portable WiFi control desk lets you set up, run and monitor the C120-HD from the tractor or loader cab.</p></div></div></li>
-      <li class="faq__item"><button class="faq__head" aria-expanded="false"><svg viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>Is finance available?</button><div class="faq__panel"><div><p>Yes. Teagle Finance is available on new machines to UK-registered businesses, subject to status. See the terms and conditions below.</p></div></div></li>
+
+    <ul class="faq__list">
+      <li class="faq__item is-open">
+        <button class="faq__head" type="button" aria-controls="faq-0" aria-expanded="true"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>What materials can the C120-HD process?</button>
+        <div class="faq__panel" id="faq-0"><div><p>Straw, hay, miscanthus and other biomass, as well as manure and composting materials. With the optional grain milling hopper and screens fitted, it can also process grain.</p></div></div>
+      </li>
+      <li class="faq__item">
+        <button class="faq__head" type="button" aria-controls="faq-1" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>What size tractor do I need?</button>
+        <div class="faq__panel" id="faq-1"><div><p>A minimum of 180HP (135kW) with a 1,000 rpm PTO. Your dealer can advise on the best match for the materials you process.</p></div></div>
+      </li>
+      <li class="faq__item">
+        <button class="faq__head" type="button" aria-controls="faq-2" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>How long does it take to change a screen?</button>
+        <div class="faq__panel" id="faq-2"><div><p>Screens are changed from ground level at the back of the machine, so a swap typically takes a matter of minutes.</p></div></div>
+      </li>
+      <li class="faq__item">
+        <button class="faq__head" type="button" aria-controls="faq-3" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>How often do the hammers need changing?</button>
+        <div class="faq__panel" id="faq-3"><div><p>It depends on the material and hours worked. The thicker, reformulated hammers last significantly longer, and the quick switch system means only the back half of the set needs changing at a time.</p></div></div>
+      </li>
+      <li class="faq__item">
+        <button class="faq__head" type="button" aria-controls="faq-4" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>Can I control the machine from the cab?</button>
+        <div class="faq__panel" id="faq-4"><div><p>Yes. The portable WiFi control desk lets you set up, run and monitor the C120-HD from the tractor or loader cab.</p></div></div>
+      </li>
+      <li class="faq__item">
+        <button class="faq__head" type="button" aria-controls="faq-5" aria-expanded="false"><svg aria-hidden="true" viewBox="0 0 26 16"><path d="M2 2l11 11L24 2"/></svg>Is finance available?</button>
+        <div class="faq__panel" id="faq-5"><div><p>Yes. Teagle Finance is available on new machines to UK-registered businesses, subject to status.</p></div></div>
+      </li>
     </ul>
-    <p class="tcs"><b>Terms and conditions:</b> The financing referred to in this document is only available through Teagle Finance which is a trading style of De Lage Landen Leasing Limited (DLL) on either the total amount financed, or up to a maximum of 50% of RRP, whichever is lower. Accessories may be included in the financed amount. Values shown exclude VAT. Pricing information above is a representative example only and is based on a hire purchase basis and is subject to availability. The pricing information does not include documentation fees, option to purchase fees, or other fees. VAT needs to be paid in full upfront. This is not a contractual offer and is subject to change and may be withdrawn, at any time without prior notice. Finance is for business purposes in the UK only and is subject to status. Availability of financing is subject to approval by DLL and cannot be combined with any other campaign. Guarantees and indemnities may be required. DLL is authorised and regulated by the Financial Conduct Authority only in respect of agreements regulated by the Consumer Credit Act 1974. Only available through authorised Teagle dealers. This document has been prepared for promotional purposes only. It is not meant as advice on how any transaction or aspect of it should be qualified from a legal, tax, accounting or other perspective. We cannot guarantee that any information provided in this document is complete or accurate or fit for your purposes. We recommend that you seek independent advice.</p>
   </div>
 </section>
 
-<!-- FOOTER -->
+
+</main>
+
+
+<!-- ================================================================
+     FOOTER AND LEGAL BAR
+     ================================================================ -->
 <footer class="footer">
   <div class="wrap footer__grid">
-    <div><h4>GET IN TOUCH</h4><ul><li><a href="#">Contact Us</a></li><li><a href="#">Dealer Finder</a></li><li><a href="#">Enquiry Form</a></li><li><a href="#">Visit Us</a></li><li><a href="#">Reviews</a></li></ul></div>
-    <div><h4>PRODUCTS</h4><ul><li><a href="#">Bale Processors</a></li><li><a href="#">Swath Conditioner</a></li></ul></div>
-    <div><h4>SUPPORT</h4><ul><li><a href="#">Replacement Parts</a></li><li><a href="#">Teagle Connect</a></li><li><a href="#">Warranty Registration</a></li><li><a href="#">Support Contacts</a></li></ul></div>
-    <div><h4>FOLLOW US</h4><div class="social">
-      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-4 0-5 3-5 5v2H6v4h3v11h5V12h3.5l.5-4z"/></svg></a>
-      <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.5 1h-4v14.5a3 3 0 1 1-3-3c.3 0 .7 0 1 .1V8.5a7 7 0 1 0 6 7V8.3A8.6 8.6 0 0 0 21.5 10V6a5 5 0 0 1-5-5z"/></svg></a>
-      <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.8 3z"/></svg></a>
-      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg></a>
-    </div></div>
+    <div>
+      <h2 class="footer__heading">GET IN TOUCH</h2>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Dealer Finder</a></li>
+        <li><a href="#">Enquiry Form</a></li>
+        <li><a href="#">Visit Us</a></li>
+        <li><a href="#">Reviews</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer__heading">PRODUCTS</h2>
+      <ul>
+        <li><a href="#">Bale Processors</a></li>
+        <li><a href="#">Swath Conditioner</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer__heading">SUPPORT</h2>
+      <ul>
+        <li><a href="#">Replacement Parts</a></li>
+        <li><a href="#">Teagle Connect</a></li>
+        <li><a href="#">Warranty Registration</a></li>
+        <li><a href="#">Support Contacts</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer__heading">FOLLOW US</h2>
+      <div class="social">
+        <a href="#" aria-label="Facebook"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-4 0-5 3-5 5v2H6v4h3v11h5V12h3.5l.5-4z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16.5 1h-4v14.5a3 3 0 1 1-3-3c.3 0 .7 0 1 .1V8.5a7 7 0 1 0 6 7V8.3A8.6 8.6 0 0 0 21.5 10V6a5 5 0 0 1-5-5z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15V9l5.8 3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg></a>
+      </div>
+    </div>
   </div>
 </footer>
+
 <div class="legal">
-  <div class="wrap legal__row"><span>Teagle Machinery Ltd, Blackwater, Truro, Cornwall, TR4 8HQ</span><b>sales@teagle.co.uk</b><b>+44 (0)1872 560592</b><span class="legal__copy">Copyright © Teagle Machinery Ltd 2026</span></div>
-  <div class="wrap legal__row" style="border:0"><a href="#">Privacy Policy</a><a href="#">Cookies</a><a href="#">Terms of Trading</a><a href="#">Sitemap</a></div>
+  <div class="wrap legal__row">
+    <span>Teagle Machinery Ltd, Blackwater, Truro, Cornwall, TR4 8HQ</span>
+    <b>sales@teagle.co.uk</b>
+    <b>+44 (0)1872 560592</b>
+    <span class="legal__copy">Copyright © Teagle Machinery Ltd 2026</span>
+  </div>
+  <div class="wrap legal__row legal__row--links">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Cookies</a>
+    <a href="#">Terms of Trading</a>
+    <a href="#">Sitemap</a>
+  </div>
 </div>
 
 
-<!-- CONTACT FORM MODAL -->
+<!-- ================================================================
+     CONTACT FORM MODAL
+     Opened by any element with a data-contact attribute.
+     Demo only: the form validates but sends nothing.
+     ================================================================ -->
 <dialog class="modal" id="contactModal" aria-labelledby="contactTitle">
   <form class="modal__box" id="contactForm" method="dialog" novalidate>
-    <button class="modal__close" type="button" aria-label="Close" data-close><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+    <button class="modal__close" type="button" aria-label="Close" data-close><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+
     <div class="modal__form">
       <h2 class="h-section" id="contactTitle">Contact us</h2>
       <p class="modal__intro">Tell us a little about your needs and your local Teagle dealer will be in touch about the C120-HD.</p>
+
       <div class="field-row">
         <label class="field"><span>First name*</span><input name="first" autocomplete="given-name" required></label>
         <label class="field"><span>Last name*</span><input name="last" autocomplete="family-name" required></label>
@@ -291,13 +611,22 @@
       </div>
       <div class="field-row">
         <label class="field"><span>Postcode*</span><input name="postcode" autocomplete="postal-code" required></label>
-        <label class="field"><span>I'm interested in</span><select name="interest"><option>Buying a C120-HD</option><option>A demonstration</option><option>Finance options</option><option>Something else</option></select></label>
+        <label class="field"><span>I'm interested in</span>
+          <select name="interest">
+            <option>Buying a C120-HD</option>
+            <option>A demonstration</option>
+            <option>Finance options</option>
+            <option>Something else</option>
+          </select>
+        </label>
       </div>
       <label class="field"><span>Message</span><textarea name="message" rows="4"></textarea></label>
       <label class="check"><input type="checkbox" name="consent" required><span>I agree to Teagle contacting me about my enquiry, in line with the <a href="#">Privacy Policy</a>.*</span></label>
+
       <button class="btn btn--red modal__submit" type="submit">Send enquiry</button>
       <p class="modal__demo">Demo page: this form doesn’t send any information.</p>
     </div>
+
     <div class="modal__done" hidden>
       <h2 class="h-section">Thank you</h2>
       <p>Your enquiry has been sent. Your local Teagle dealer will be in touch shortly.</p>
@@ -305,6 +634,7 @@
     </div>
   </form>
 </dialog>
+
 <script src="js/main.js"></script>
 </body>
 </html>
